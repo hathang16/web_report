@@ -71,3 +71,20 @@ body {
     margin: 50px;
     color: #333;
   }
+  #textbox2 {
+    margin-left: 50px;
+    color: #333;
+  }
+
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
