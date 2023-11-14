@@ -57,6 +57,16 @@ body {
     margin-bottom: 20px;
     color: #c88022;
   }
+
+  #be { 
+    font-size: 1.8em;
+    margin-bottom: 50px;
+    color: #c88022;
+  }
+
+  #be:hover {
+    color: #666;
+  }
   
   p {
     font-size: 1.2em;
