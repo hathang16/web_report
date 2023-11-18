@@ -1,0 +1,48 @@
+<!-- 수정된 HTML -->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0", maximum-scale=1.0, user-scalable=no>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+  <title>고양이 웹사이트</title>
+</head>
+<body>
+  <header>
+    <h1>고양이의 세계</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">홈</a></li>
+      <li><a href="#about" target="_self">고양이 소개</a></li>
+      <li><a href="#gallery" target="_self">고양이 갤러리</a></li>
+      <li><a href="#contact" target="_self">고양이 질문</a></li>
+    </ul>
+  </nav>
+  <section class="gallery-section">
+    <h2>고양이 갤러리</h2>
+  </section>
+  <section class="gallery-section">
+    <h3>제목</h3>
+    <p>글쓴이: OOO</p>
+    <p>작성일: 20XX-XX-XX</p>
+    <img src="cat_sound.jpg" width="100%" alt="고양이 이미지">
+    <p>손을 들고 있는 고양이</p>
+  </section>
+
+  <div class="btn-wrap">
+    <button type="submit" id="btn-list" onclick="goToList()">목록으로</button>
+    <button type="submit" id="btn-edit" onclick="goToEdit()">수정하기</button>
+  </div>
+
+  <hr>
+  <footer id="source">
+    <p>출처: <a href="https://namu.wiki/w/%EA%B3%A0%EC%96%91%EC%9D%B4">나무위키</a> / <a href="https://bemypet.kr">비마이 펫</a></p>
+    <p>도움: 이진현, 황다비</p>
+  </footer>
+
+</body>
+</html>

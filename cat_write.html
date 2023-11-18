@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0", maximum-scale=1.0, user-scalable=no>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+  <title>고양이 웹사이트</title>
+</head>
+<body>
+  <header>
+    <h1>고양이의 세계</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">홈</a></li>
+      <li><a href="#about" target="_self">고양이 소개</a></li>
+      <li><a href="#gallery" target="_self">고양이 갤러리</a></li>
+      <li><a href="#contact" target="_self">고양이 질문</a></li>
+    </ul>
+  </nav>
+  <section class="gallery-section">
+    <h2 style="margin-bottom: 10px;">고양이 갤러리</h2>
+    <p>귀여운 고양이 사진들을 감상하거나 업로드 해보세요.</p>
+  </section>
+
+  <hr>
+
+  <!-- 추가된 폼 -->
+  <section class="upload-form">
+    <form id="uploadForm">
+      <label for="title">제목:</label>
+      <input type="text" id="title" name="title" required>
+
+      <label for="author">글쓴이:</label>
+      <input type="text" id="author" name="author" required>
+
+      <label for="password">비밀번호:</label>
+      <input type="password" id="password" name="password" required>
+
+      <label for="content">내용:</label>
+      <textarea id="content" name="content" rows="4" required></textarea>
+
+      <label for="image">사진 업로드:</label>
+      <input type="file" id="image" name="image" accept="image/*">
+
+      <button type="submit">등록</button>
+      <button type="button" onclick="cancelUpload()">취소</button>
+    </form>
+  </section>
+
+
+  <hr>
+  <footer id="source">
+    <p>출처: <a href="https://namu.wiki/w/%EA%B3%A0%EC%96%91%EC%9D%B4">나무위키</a> / <a href="https://bemypet.kr">비마이 펫</a></p>
+    <p>도움: 이진현, 황다비</p>
+  </footer>
+
+</body>
+</html>

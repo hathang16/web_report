@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0", maximum-scale=1.0, user-scalable=no>
-        <link rel="stylesheet" href="styles.css">
-        <script src="app.js" defer></script>
-        <title>고양이 웹사이트</title>
-      </head>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", maximum-scale=1.0, user-scalable=no>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <title>고양이 웹사이트</title>
+  </head>
+  <body>
     <header>
       <h1>고양이의 세계</h1>
     </header>
@@ -21,16 +20,43 @@
         <li><a href="#contact" target="_self">고양이 질문</a></li>
       </ul>
     </nav>
-    <section>
-        <h2>고양이 갤러리</h2>
-        <p>귀여운 고양이 사진들을 감상하거나 업로드 해보세요.</p>
-      </section>
+    <section class="gallery-section">
+      <h2 style="margin-bottom: 10px;">고양이 갤러리</h2>
+      <p>귀여운 고양이 사진들을 감상하거나 업로드 해보세요.</p>
+    </section>
 
+    <section id="board" style="margin-top: 20px;">
+      <h2>게시판</h2>
+      <!-- 게시판 내용을 여기에 추가하세요 -->
+      <table class="gallery-table">
+        <thead>
+          <tr>
+            <th>번호</th>
+            <th>제목</th>
+            <th>글쓴이</th>
+            <th>작성일</th>
+            <th>조회</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><a href="cat_view.html">제목</a></td>
+            <td>OOO</td>
+            <td>20XX-XX-XX</td>
+            <td>XX</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="bt_wrap">
+        <a href="cat_write.html" class="on">글쓰기</a>
+      </div>
+    </section>
+      
     <hr>
     <footer id="source">
       <p>출처: <a href="https://namu.wiki/w/%EA%B3%A0%EC%96%91%EC%9D%B4"> 나무위키</a> / <a href="https://bemypet.kr">비마이 펫</a></p>
       <p>도움: 이진현, 황다비</p>
     </footer>
-  
   </body>
-  </html>
+</html>

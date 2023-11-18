@@ -1,102 +1,183 @@
 /* styles.css */
 
-
 body {
-    margin: 0;
-    font-family: 'Noto Sans KR', sans-serif;
-    background-color: #f2f2f2;
-  }
-  
-  header {
-    background-color: #333;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  h1 {
-    color: #fff;
-    font-size: 4em;
-  }
-  
-  nav {
-    background-color: #c88022;
-    padding: 10px 0;
-    text-align: center;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    display: inline-block;
-    margin: 0 20px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #333;
-    font-size: 16px;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
-  
-  a:hover {
-    color: #c88022;
-  }
-  
-  section {
-    padding: 50px 20px;
-    text-align: center;
-    color: #333;
-  }
-  
-  h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #c88022;
-  }
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #f2f2f2;
+}
 
-  #be { 
-    font-size: 1.8em;
-    margin-bottom: 50px;
-    color: #c88022;
-  }
+header {
+  background-color: #333;
+  padding: 20px 0;
+  text-align: center;
+}
 
-  #be:hover {
-    color: #666;
-  }
-  
-  p {
-    font-size: 1.2em;
-    color: #666;
-  }
+h1 {
+  color: #fff;
+  font-size: 4em;
+}
 
-  #source {
-    margin-left: 50px;
-    font-size: 13px;
-  }
-  
-  #textbox {
-    margin: 50px;
-    color: #333;
-  }
-  #textbox2 {
-    margin-left: 50px;
-    color: #333;
-  }
+nav {
+  background-color: #c88022;
+  padding: 10px 0;
+  text-align: center;
+}
 
-  table {
-    width: 50%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-    margin-left: 50px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #c88022;
+}
+
+section {
+  padding: 10px 20px;
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: #c88022;
+}
+
+h3 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+  color: #c88022;
+}
+
+#be {
+  font-size: 1.8em;
+  margin-bottom: 50px;
+  color: #c88022;
+}
+
+#be:hover {
+  color: #666;
+}
+
+p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+#source {
+  margin-left: 50px;
+  font-size: 13px;
+}
+
+#textbox {
+  margin: 50px;
+  color: #333;
+}
+
+#textbox2 {
+  margin-left: 50px;
+  color: #333;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 20px auto;
 }
 
 th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #c88022;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.gallery-section {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.gallery-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#board {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.upload-form {
+  margin: 20px;
+}
+
+.upload-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.upload-form input,
+.upload-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.upload-form button {
+  padding: 10px;
+  background-color: #c88022;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#btn-list,
+#btn-edit {
+  padding: 10px;
+  background-color: #c88022;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#btn-list:hover,
+#btn-edit:hover {
+  background-color: #666;
+}
+
+.btn-wrap {
+  text-align: center;
 }
