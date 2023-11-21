@@ -26,9 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
     event.preventDefault();
     navigateToPage('cat_contact.html');
   });
-
-  
-    // 다른 코드들...
   
     // 페이지로 이동하는 함수
     function navigateToPage(page) {
